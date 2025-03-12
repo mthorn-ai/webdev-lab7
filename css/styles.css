@@ -1,5 +1,4 @@
 td, th {
-  border-radius: 15px;
   padding: 10px;
 }
 
@@ -17,23 +16,23 @@ td, th {
   overflow: hidden;
 }
 
-#page-container {
+#table-container {
   margin-left: 5rem;
   margin-right: 5rem;
-  background-color: cornflowerblue;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 table {
   width: 100%;
   border-collapse: collapse;
   height: 500px;
-  border-radius: 15px;
   overflow:hidden;
+  background-color: white;
 }
 
-tr:nth-child(odd) {
-  background-color: white;
+tr:nth-child(even) {
+  background-color: cornflowerblue;
 }
 
 tr:hover {

@@ -3,73 +3,75 @@
 <head>
   <meta charset="utf-8">
   <title>Matthew Thornton - Lab 7</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  <h1>Planetary Fact Sheet</h1>
-  <table id="planets">
-    <tr>
-      <th></th>
-      <th>Jupiter</th>
-      <th>Saturn</th>
-      <th>Uranus</th>
-      <th>Neptune</th>
-    </tr>
-    <tr>
-      <td>Images of ??</td>
-      <td><img src="images/planet_1.png" alt="?"></td>
-      <td><img src="images/planet_2.png" alt="?"></td>
-      <td><img src="images/planet_3.png" alt="?"></td>
-      <td><img src="images/planet_4.png" alt="?"></td>
-    </tr>
-    <tr>
-      <td>Gravity (m/s^2)</td>
-      <td>23.1</td>
-      <td>9.0</td>
-      <td>8.7</td>
-      <td>11.0</td>
-    </tr>
-    <tr>
-      <td>Orbital Period (days)</td>
-      <td>4,331</td>
-      <td>10,747</td>
-      <td>30,589</td>
-      <td>59,800</td>
-    </tr>
-    <tr>
-      <td>Mean Temperature (C)</td>
-      <td>-110</td>
-      <td>-140</td>
-      <td>-195</td>
-      <td>-200</td>
-    </tr>
-    <tr>
-      <td>Distance from the Sun (10^6 km)</td>
-      <td>778.5</td>
-      <td>1432.0</td>
-      <td>2867.0</td>
-      <td>4515.0</td>
-    </tr>
-    <tr>
-      <td>Orbital Velocity (km/s)</td>
-      <td>13.1</td>
-      <td>9.7</td>
-      <td>6.8</td>
-      <td>5.4</td>
-    </tr>
-    <tr>
-      <td>Number of moons</td>
-      <td>95</td>
-      <td>146</td>
-      <td>28</td>
-      <td>16</td>
-    </tr>
-    <tr>
-      <td>Length of day (hours)</td>
-      <td>9.9</td>
-      <td>10.7</td>
-      <td>17.2</td>
-      <td>16.1</td>
-    </tr>
-  </table>
+<body id="background">
+  <div id="title-style"><h1>Planetary Fact Sheet</h1></div>
+  <div id="page-container">
+    <table id="planets">
+      <tr>
+        <th></th>
+        <th class="label-style">Jupiter</th>
+        <th class="label-style">Saturn</th>
+        <th class="label-style">Uranus</th>
+        <th class="label-style">Neptune</th>
+      </tr>
+      <tr>
+        <td class="label-style">Images</td>
+        <td><img src="assets/jupiter.jpg" alt="Photograph of jupiter"></td>
+        <td><img src="assets/saturn.jpg" alt="Photograph of saturn"></td>
+        <td><img src="assets/uranus.jpg" alt="Photograph of uranus"></td>
+        <td><img src="assets/neptune.jpg" alt="Photograph of neptune"></td>
+      </tr>
+      <tr>
+        <td class="label-style">Gravity (m/s<sup>2</sup>)</td>
+        <td class="data-style">23.1</td>
+        <td class="data-style">9.0</td>
+        <td class="data-style">8.7</td>
+        <td class="'data-style">11.0</td>
+      </tr>
+      <tr>
+        <td class="label-style">Orbital Period (days)</td>
+        <td class="data-style">4,331</td>
+        <td class="data-style">10,747</td>
+        <td class="data-style">30,589</td>
+        <td class="data-style">59,800</td>
+      </tr>
+      <tr>
+        <td class="label-style">Mean Temperature (Celsius)</td>
+        <td class="data-style">-110</td>
+        <td class="data-style">-140</td>
+        <td class="data-style">-195</td>
+        <td class="data-style">-200</td>
+      </tr>
+      <tr>
+        <td class="label-style">Distance from the Sun (10<sup>6</sup> km)</td>
+        <td class="data-style">778.5</td>
+        <td class="data-style">1432.0</td>
+        <td class="data-style">2867.0</td>
+        <td class="data-style">4515.0</td>
+      </tr>
+      <tr>
+        <td class="label-style">Orbital Velocity (km/s)</td>
+        <td class="data-style">13.1</td>
+        <td class="data-style">9.7</td>
+        <td class="data-style">6.8</td>
+        <td class="data-style">5.4</td>
+      </tr>
+      <tr>
+        <td class="label-style">Number of moons</td>
+        <td class="data-style">95</td>
+        <td class="data-style">146</td>
+        <td class="data-style">28</td>
+        <td class="data-style">16</td>
+      </tr>
+      <tr>
+        <td class="label-style">Length of day (hours)</td>
+        <td class="data-style">9.9</td>
+        <td class="data-style">10.7</td>
+        <td class="data-style">17.2</td>
+        <td class="data-style">16.1</td>
+      </tr>
+    </table>
+  </div>
 </body>

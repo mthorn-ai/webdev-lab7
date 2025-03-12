@@ -1,3 +1,61 @@
 td, th {
-	border: 1px solid;
-  }
+  border-radius: 15px;
+  padding: 10px;
+}
+
+#title-style {
+  margin-left: 5%;
+  padding: 1rem;
+  font-family: cursive;
+}
+
+#background {
+  background-color: #a9a9a9;
+  padding: 0;
+  margin: 0;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#page-container {
+  margin-left: 5rem;
+  margin-right: 5rem;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  height: 500px;
+  border-radius: 15px;
+  overflow:hidden;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+tr:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+tr td {
+  text-align: center;
+}
+
+.label-style {
+  font-weight: bolder;
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.data-style {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tr td img {
+  width: 10rem;
+}
+
